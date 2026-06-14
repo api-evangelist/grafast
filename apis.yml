@@ -1,0 +1,61 @@
+aid: grafast
+name: Grafast
+description: "Next-generation PostgreSQL-backed GraphQL planning and execution engine from the Graphile project, replacing graphql-js execution with a plan-based approach to eliminate N+1 queries."
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://grafast.org/
+created: '2026-06-14'
+modified: '2026-06-14'
+specificationVersion: '0.19'
+type: Index
+tags:
+  - GraphQL
+  - PostgreSQL
+  - Query Planning
+  - Execution Engine
+  - Node.js
+  - Open Source
+  - Performance
+apis:
+  - aid: grafast:grafast-graphql
+    name: Grafast GraphQL API
+    description: "Grafast's plan-based GraphQL execution engine, providing a drop-in replacement for graphql-js execute with plan resolvers, operation planning, and efficient batched execution to eliminate N+1 query problems."
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://grafast.org/
+    humanURL: https://grafast.org/grafast/
+    tags:
+      - GraphQL
+      - Query Planning
+      - Execution Engine
+    properties:
+      - type: Documentation
+        url: https://grafast.org/grafast/
+      - type: GraphQL
+        url: graphql/grafast-graphql.md
+common:
+  - type: Website
+    url: https://grafast.org/
+  - type: Documentation
+    url: https://grafast.org/grafast/
+  - type: GettingStarted
+    url: https://grafast.org/grafast/getting-started/
+  - type: Blog
+    url: https://grafast.org/news/
+  - type: GitHubOrganization
+    url: https://github.com/grafast
+  - type: GitHubRepository
+    url: https://github.com/graphile/crystal
+  - type: LinkedIn
+    url: https://uk.linkedin.com/company/graphile
+  - type: Pricing
+    url: https://grafast.org/support/
+  - type: Plans
+    url: plans/grafast-plans.md
+  - type: RateLimits
+    url: rate-limits/grafast-rate-limits.md
+  - type: FinOps
+    url: finops/grafast-finops.md
+  - type: npmPackage
+    url: https://www.npmjs.com/package/grafast
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
