@@ -1,7 +1,7 @@
 aid: grafast
 name: Grafast
 description: "Next-generation PostgreSQL-backed GraphQL planning and execution engine from the Graphile project, replacing graphql-js execution with a plan-based approach to eliminate N+1 queries."
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://grafast.org/
 created: '2026-06-14'
 modified: '2026-06-14'
@@ -19,7 +19,7 @@ apis:
   - aid: grafast:grafast-graphql
     name: Grafast GraphQL API
     description: "Grafast's plan-based GraphQL execution engine, providing a drop-in replacement for graphql-js execute with plan resolvers, operation planning, and efficient batched execution to eliminate N+1 query problems."
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://grafast.org/
     humanURL: https://grafast.org/grafast/
     tags:
