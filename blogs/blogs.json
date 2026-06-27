@@ -1,0 +1,21 @@
+{
+  "repo": "grafast",
+  "feeds": [
+    {
+      "source": "https://grafast.org/news/rss.xml",
+      "feed_url": "https://grafast.org/news/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://grafast.org/grafast/getting-started/",
+      "feed_url": "https://grafast.org/news/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 5
+}
