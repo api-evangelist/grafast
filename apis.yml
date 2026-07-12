@@ -32,6 +32,8 @@ apis:
       - type: GraphQL
         url: graphql/grafast-graphql.md
 common:
+  - type: DomainSecurity
+    url: security/grafast-domain-security.yml
   - type: Website
     url: https://grafast.org/
   - type: Documentation
