@@ -43,6 +43,17 @@ apis:
       - type: GraphQL
         url: graphql/grafast-graphql.md
 common:
+  - type: IssueTracker
+    url: https://github.com/graphile/crystal/issues
+  - type: Releases
+    url: https://github.com/graphile/crystal/releases
+  - type: CodeOfConduct
+    url: https://github.com/graphile/.github/blob/master/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/graphile/crystal/blob/main/CONTRIBUTING.md
+  - type: License
+    name: MIT
+    url: https://github.com/graphile/crystal/blob/main/LICENSE
   - type: DomainSecurity
     url: security/grafast-domain-security.yml
   - type: Website
