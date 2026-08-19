@@ -16,7 +16,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grafast.pn
 url: https://grafast.org/
 created: '2026-06-14'
 modified: '2026-06-14'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 type: Index
 tags:
   - GraphQL
