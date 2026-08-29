@@ -1,6 +1,19 @@
 aid: grafast
 name: Grafast
 description: "Next-generation PostgreSQL-backed GraphQL planning and execution engine from the Graphile project, replacing graphql-js execution with a plan-based approach to eliminate N+1 queries."
+deliveryModel:
+  model: open-core
+  license: MIT
+  open_source: true
+  commercial: true
+  callable_host: false
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: high
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
