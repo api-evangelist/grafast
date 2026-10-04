@@ -31,13 +31,16 @@ created: '2026-06-14'
 modified: '2026-06-14'
 specificationVersion: '0.23'
 type: Index
+x-docs-platform: docusaurus
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
   - GraphQL
   - PostgreSQL
   - Query Planning
   - Execution Engine
   - Node.js
-  - Open-Source
+  - Open Source
   - Performance
 tags_raw:
   - GraphQL
@@ -47,12 +50,12 @@ tags_raw:
   - Node.js
   - Open Source
   - Performance
+  - Open-Source
 apis:
   - aid: grafast:grafast-graphql
     name: Grafast GraphQL API
     description: "Grafast's plan-based GraphQL execution engine, providing a drop-in replacement for graphql-js execute with plan resolvers, operation planning, and efficient batched execution to eliminate N+1 query problems."
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    baseURL: https://grafast.org/
     humanURL: https://grafast.org/grafast/
     tags:
       - GraphQL
