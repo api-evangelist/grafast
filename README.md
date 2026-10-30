@@ -66,37 +66,92 @@
 
 Next-generation PostgreSQL-backed GraphQL planning and execution engine from the Graphile project, replacing graphql-js execution with a plan-based approach to eliminate N+1 queries.
 
-## Overview
+**Areas:** GraphQL · PostgreSQL · Query Planning · Execution Engine · Node.js · Open Source · Performance
 
-Grafast is a ludicrously speedy, general-purpose, and holistic advanced planning and execution engine for GraphQL. It serves as a drop-in replacement for the `execute` method from `graphql-js`, using "plan resolvers" instead of traditional field resolvers to orchestrate data fetching efficiently.
+## Grafast on APIs.io
 
-- **Website**: https://grafast.org/
-- **Documentation**: https://grafast.org/grafast/
-- **GitHub**: https://github.com/grafast (org) / https://github.com/graphile/crystal (monorepo)
-- **npm**: https://www.npmjs.com/package/grafast
-- **Blog**: https://grafast.org/news/
-- **LinkedIn**: https://uk.linkedin.com/company/graphile
-- **Sponsorship**: https://grafast.org/support/
+Everything profiled for Grafast is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/grafast/](https://apis.io/providers/grafast/)** — or go straight to one of the APIs or properties below.
 
-## How It Works
+### APIs (1)
 
-1. **Planning Phase**: Grafast analyzes the incoming GraphQL operation and builds an optimized execution plan — a DAG of steps derived from all plan resolvers in the schema.
-2. **Execution Phase**: The plan is executed with automatic batching and deduplication of steps, dramatically reducing the number of database queries and remote calls.
+- [Grafast GraphQL API](https://apis.io/apis/grafast/grafast-graphql/) — Grafast's plan-based GraphQL execution engine, providing a drop-in replacement for graphql-js execute with plan resolvers, operation planning, and efficient…
 
-## Repository Contents
+### Published properties
 
-```
-apis.yml                        # APIs.json 0.19 catalog entry
-graphql/grafast-graphql.md      # GraphQL API documentation
-plans/grafast-plans.md          # Sponsorship and support plans
-rate-limits/grafast-rate-limits.md  # Rate limiting guidance
-finops/grafast-finops.md        # FinOps and cost analysis
-```
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## License
+#### GraphQL (1)
 
-Grafast is MIT licensed and free to use. See https://grafast.org/support/ for optional sponsorship tiers that sustain ongoing development.
+GraphQL schemas.
 
-## Maintainer
+- [Grafast GraphQL Execution Engine](https://apis.io/graphqls/grafast/grafast-graphql/)
 
-Kin Lane — kin@apievangelist.com
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Grafast Domain Security](https://apis.io/security/grafast/grafast-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://grafast.org/)
+- [Documentation](https://grafast.org/grafast/)
+- [Getting started](https://grafast.org/grafast/getting-started/)
+- [Pricing](https://grafast.org/support/)
+- [Blog](https://grafast.org/news/)
+- [GitHub](https://github.com/grafast)
+
+## API Evangelist rating
+
+**Kin Score 27.3** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 39.4 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 10.5 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/grafast/](https://apis.io/providers/grafast/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Grafast: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/grafast/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
